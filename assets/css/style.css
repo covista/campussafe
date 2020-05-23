@@ -59,7 +59,7 @@
 /* TOP-MIDDLE/TITLE SECTION */
 
 .title {
-	margin-left: 8.75%;
+	margin-left: 20%;
 	margin-top: 4%;
 
 	font-family: Montserrat, sans-serif;
@@ -71,8 +71,8 @@
 }
 
 .subtitle {
-	margin-left: 8.75%;
-	margin-right: 35%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 2%;
 
 	font-family: Montserrat, sans-serif;
@@ -80,6 +80,7 @@
 	font-weight: 500;
 	font-size: 25px;
 	line-height: 150%;
+	text-align: center;
 	color: #333333;
 }
 
@@ -89,7 +90,7 @@
 .roles {
 	display: flex;
 	flex-direction: row;
-	margin-left: 8.75%;
+	margin-left: 15%;
 	margin-top: 4%;
 }
 
@@ -147,7 +148,7 @@
 }
 
 .study-note {
-	margin-left: 8.75%;
+	margin-left: 15%;
 	margin-right: 16%;
 	margin-top: 5%;
 
@@ -167,7 +168,7 @@
 }
 
 .safe-campus {
-	margin-left: 11%;
+	margin-left: 18%;
 	margin-top: .3%;
 
 	font-family: Montserrat;
