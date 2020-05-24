@@ -7,6 +7,8 @@ html, body {
 	font-style: normal;
 }
 
+/* PARAS ARORA */
+
 /* TOP SECTION */
 
 .navbar {
@@ -151,8 +153,7 @@ html, body {
 	color: #999999;
 }
 
-/*
-OLIVIA QIN */
+/* OLIVIA QIN */
 
 .bg-grey {
     background-color: #F3F3F3;
@@ -167,7 +168,7 @@ OLIVIA QIN */
 }
 
 .dark-grey {
-    color: #333333;
+    color: #666666;
 }
 
 .bg-dark-grey {
@@ -186,6 +187,7 @@ OLIVIA QIN */
 
 .h-3 {
     font-weight: bold;
+		font-size: 24px;
 }
 
 .h-4 {
@@ -216,7 +218,6 @@ OLIVIA QIN */
 .cf {
     font-weight: bold;
     font-size: 18px;
-    color: #999999;
 }
 
 .bt {
@@ -257,6 +258,17 @@ OLIVIA QIN */
     height: 50px;
 }
 
+.transparent {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.row-flex {
+	flex-direction: row;
+}
+
+.card {
+	height: 100%;
+}
 
 .masonry { /* Masonry container */
     -webkit-column-count: 2;
