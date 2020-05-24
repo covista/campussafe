@@ -1,40 +1,42 @@
-/* AUTHOR: PARAS ARORA
-   DATE: 05/22/2020
+/* AUTHORS: PARAS ARORA, OLIVIA QIN, JULIA LIU
+   DATE: 05/23/2020
 */
+
+html, body {
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+}
 
 /* TOP SECTION */
 
-.top-section {
+.navbar {
 	display: flex;
 	flex-direction: row;
-	margin-left: 8.75%;
-	margin-top: 5.75%;
 }
 
-.org {
-	font-family: Montserrat, sans-serif;
-	font-style: normal;
+.navbar-right {
+	float: right;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+ .org {
 	font-weight: 400;
 	font-size: 30px;
 	line-height: 37px;
 }
 
 .telephone {
-	margin-top: .35%;
-	margin-left: 35%;
-	font-family: Montserrat, sans-serif;
-	font-style: normal;
+	padding: 15px 20px;
+
 	font-weight: 500;
 	font-size: 20px;
 	color: #999999;
-	line-height: 150%;
 }
 
 .slack-box {
-	margin-left: 2%;
-	margin-top: -.8%;
-	width: 143px;
-	height: 64px;
+	padding: 15px 20px;
 
 	border: 2px solid #CCCCCC;
 	box-sizing: border-box;
@@ -42,31 +44,27 @@
 }
 
 .slack-link {
-	padding-left: 25%;
-	padding-top: 12%;
-
-	font-family: Montserrat, sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 	color: #999999;
-
 }
 
-.slack-box:hover {
+.slack-box:hover .slack-link, .slack-link:hover {
 	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
 }
-
 
 /* TOP-MIDDLE/TITLE SECTION */
 
-.title {
-	margin-left: 20%;
-	margin-top: 4%;
+.content {
+	padding: .5rem 1rem;
+}
 
-	font-family: Montserrat, sans-serif;
-	font-style: normal;
+.title {
+	padding: 4rem 0 2rem 0;
+
 	font-weight: bold;
 	font-size: 80px;
 	line-height: 98px;
@@ -74,33 +72,25 @@
 }
 
 .subtitle {
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 2%;
+	padding: 0 0 2rem 0;
 
-	font-family: Montserrat, sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 25px;
 	line-height: 150%;
-	text-align: center;
 	color: #333333;
 }
-
 
 /* DIFFERENT ROLES SECTION */
 
 .roles {
 	display: flex;
 	flex-direction: row;
-	margin-left: 15%;
-	margin-top: 4%;
 }
 
 .role {
 	margin-right: 2%;
-	width: 387px;
-	height: 495px;
+	padding: 5%;
+	min-width: 33.333%;
 
 	background: #F3F3F3;
 	border-radius: 16px;
@@ -108,14 +98,10 @@
 
 .role:hover {
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .intro-text {
-	margin-top: 17%;
-	margin-left: 15%;
-
-	font-family: Montserrat;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 25px;
 	line-height: 150%;
@@ -123,10 +109,6 @@
 }
 
 .role-title {
-	margin-left: 15%;
-
-	font-family: Montserrat;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 150%;
@@ -134,48 +116,26 @@
 }
 
 .role-img {
-	margin-left: 25%;
-	margin-top: -4%;
+
 }
 
 .role-description {
-	margin-left: 15%;
-	margin-top: 6%;
-
-	font-family: Montserrat;
-	font-style: normal;
+	padding: 1rem 0;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
 	color: #666666;
 }
 
-.study-note {
-	margin-left: 15%;
-	margin-right: 10%;
-	margin-top: 5%;
-
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 175%;
-	text-align: center;
-	color: #999999;
-}
+/* FOOTER */
 
 .footer {
 	display: flex;
 	flex-direction: row;
-	margin-top: 4%;
+	margin: 20px 0;
 }
 
 .safe-campus {
-	margin-left: 17%;
-	margin-top: .3%;
-
-	font-family: Montserrat;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 24px;
@@ -184,11 +144,6 @@
 }
 
 .berkeley-branded {
-	margin-left: .2%;
-	margin-top: .3%;
-
-	font-family: Montserrat;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
@@ -196,7 +151,172 @@
 	color: #999999;
 }
 
+/*
+OLIVIA QIN */
 
-.berkeley-logo {
-	margin-left: 38%;
+.bg-grey {
+    background-color: #F3F3F3;
+}
+
+.bg-blue {
+    background-color: #4D8AF0;
+}
+
+.blue {
+    color: #4D8AF0;
+}
+
+.dark-grey {
+    color: #333333;
+}
+
+.bg-dark-grey {
+    background-color: #333333;
+}
+
+.h-1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.h-2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.h-3 {
+    font-weight: bold;
+}
+
+.h-4 {
+    font-size: 20px;
+}
+
+.t {
+    line-height: 30px;
+    font-size: 17px;
+    color: #57595e;
+}
+
+.muted-1 {
+    color: #999999;
+}
+
+.muted-2 {
+    color: #999999;
+    font-size: 15px;
+}
+
+.ch {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.cf {
+    font-weight: bold;
+    font-size: 18px;
+    color: #999999;
+}
+
+.bt {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.br-25 {
+    border-radius: 25px;
+}
+
+.footnote {
+    font-size: 13px;
+    color: #999999;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-75 {
+    margin-top:75px;
+}
+
+.mt-100 {
+    margin-top:100px;
+}
+
+.mt-150 {
+    margin-top:150px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+
+.masonry { /* Masonry container */
+    -webkit-column-count: 2;
+  -moz-column-count:2;
+  column-count: 2;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1.5em;
+    padding-left: 0em;
+    margin: 0 0 1.5em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.item img{max-width:100%; height: auto;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    .img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    .img {
+        display: none;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
 }

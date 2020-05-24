@@ -1,54 +1,113 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta name="author" content="Paras Arora">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class="top-section"> 
-		<div class="org"><strong>CampusSafe</strong><span style="color: #999999">@UCBerkeley</span></div>
-		<div class="telephone">TEL +1 800 HEL PME!</div>
-		<div class="slack-box">
-			<div class="slack-link">Slack <span>&#10230;</span></div>
-		</div>
-	</div>
+<html lang="en">
 
-	<div class="title">Help us reopen campus.</div>
-	<div class="subtitle">Join the Berkeley Safe Campus Initiative to play an integral role in protecting our communitty from COVID-19. <span style="color: #4D8AF0">Click on your role below.</span></div>
+	<head>
 
-	<div class="roles"> 
-			<div class="role">
-				<div class="intro-text">I am a</div>
-				<div class="role-title"><a href="./students/students.html">Student</a></div>
-				<img class="role-img" src="assets/imgs/student_icon.png">
-				<div class="role-description">all undergraduates</div>
-			</div>
-		<div class="role">
-			<div class="intro-text">I am</div>
-			<div class="role-title">Staff</div>
-			<img class="role-img" src="assets/imgs/staff_icon.png">
-			<div class="role-description">faculty, staff, post-doctoral researchers, doctoral students, and graduate student researchers</div>
-		</div>
-		<div class="role">
-			<div class="intro-text">I am an <strong>Essential</strong></div>
-			<div class="role-title">Worker</div>
-			<img class="role-img" src="assets/imgs/worker_icon.png">
-			<div class="role-description">police, janitorial, health services, building mangement etc.</div>
-		</div>
-	</div>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+			<meta name="author" content="Paras Arora">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<div class="study-note">Please note there is another, similar study happening by researchers in the School of Public Health, with a focus on the general population and not just campus. You may have received a postcard in the mail inviting you to apply; you are encouraged to participate in both of these if eligible! But you need to apply separately for each.</div>
+	    <!-- Bootstrap -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<div class="footer">
-		<div class="safe-campus">SafeCampus</div>
-		<div class="berkeley-branded">@UCBerkeley</div>
-		<img class="berkeley-logo" src="assets/imgs/berkeley_logo.png">
-		<img class="health-logo" src="assets/imgs/health_logo.png">
-	</div>
+	    <!-- Font -->
+	    <link
+	        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	        rel="stylesheet">
 
-</body>
+	    <!-- StyleSheet -->
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+	</head>
+
+	<body>
+		<!-- main contaner -->
+    <main class="container-md">
+
+        <!-- 0. top portion -->
+        <nav class="navbar navbar-light">
+            <a class="org navbar-brand mt-4" href="#">
+                <span class="h-3">SafeCampus</span>
+								<span class="muted-1">@UCBerkeley</span>
+            </a>
+						<div class="navbar-right">
+	            <div class="telephone mt-4">
+	                TEL: +1 800 HEL PME!
+	            </div>
+	            <button type="button" class="slack-box btn btn-outline-secondary mt-4 pl-4 pr-4">
+								<a href="/" class="slack-link">
+									Slack
+	                <!-- Arrow -->
+	                <svg class="bi bi-arrow-right ml-1" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor"
+	                    xmlns="http://www.w3.org/2000/svg">
+	                    <path fill-rule="evenodd"
+	                        d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+	                    <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+	                </svg>
+								</a>
+	            </button>
+						</div>
+        </nav>
+
+				<!-- 1. help us reopen campus -->
+        <div class="content content-1">
+							<div class="title">Help us reopen campus.</div>
+							<div class="subtitle">Join the Berkeley Safe Campus Initiative to play an integral role in protecting our communitty from COVID-19.
+								<span style="color: #4D8AF0">Click on your role below.</span>
+							</div>
+						<div class="roles">
+								<a href="./students/students.html" class="role">
+									<div class="intro-text">I am a</div>
+									<div class="role-title">Student</div>
+									<img class="role-img" src="assets/imgs/student_icon.png">
+									<div class="role-description">all undergraduates</div>
+								</a>
+							<a class="role">
+								<div class="intro-text">I am</div>
+								<div class="role-title">Staff</div>
+								<img class="role-img" src="assets/imgs/staff_icon.png">
+								<div class="role-description">faculty, staff, post-doctoral researchers, doctoral students, and graduate student researchers</div>
+							</a>
+							<a class="role">
+								<div class="intro-text">I am an <strong>Essential</strong></div>
+								<div class="role-title">Worker</div>
+								<img class="role-img" src="assets/imgs/worker_icon.png">
+								<div class="role-description">police, janitorial, health services, building mangement etc.</div>
+							</a>
+						</div>
+
+            <p class="footnote text-center mt-5 pt-3"> Please note there is another, similar study happening by researchers in the School of Public Health, with a focus on the general population and not just campus. You may have received a postcard in the mail inviting you to apply; you are encouraged to participate in both of these if eligible! But you need to apply separately for each.</p>
+				</div>
+
+				<nav class="footer navbar navbar-light">
+					<div>
+						<div class="navbar-brand">
+							<span class="safe-campus">SafeCampus</span>
+							<span class="berkeley-branded">@UCBerkeley</span>
+						</div>
+					</div>
+					<div class="navbar-right">
+						<img src="assets/imgs/berkeley_logo.png">
+						<img src="assets/imgs/health_logo.png">
+					</div>
+				</nav>
+
+	    </main>
+
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	        crossorigin="anonymous"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	        crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+	        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	        crossorigin="anonymous"></script>
+
+	</body>
 
 </html>
