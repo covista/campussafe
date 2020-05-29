@@ -184,6 +184,11 @@ button.bg-dark-blue:hover {
   border-color: #113e8c;
 }
 
+.survey:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .blue {
   color: #4d8af0;
 }
