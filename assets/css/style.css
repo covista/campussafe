@@ -40,24 +40,19 @@ body {
 
 .slack-box {
   padding: 15px 20px;
-
   border: 2px solid #cccccc;
   box-sizing: border-box;
   border-radius: 4px;
-}
-
-.slack-link {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: #999999;
 }
-
-.slack-box:hover .slack-link,
-.slack-link:hover {
-  cursor: pointer;
+.slack-box:hover {
   text-decoration: none;
-  color: #fff;
+  background: #fff;
+  border-color: #cccccc;
+  color: #999;
 }
 
 /* TOP-MIDDLE/TITLE SECTION */
@@ -165,6 +160,11 @@ body {
   background-color: #4d8af0;
 }
 
+button.bg-blue:hover {
+  background-color: #3168c4;
+  border-color: #3168c4;
+}
+
 .bg-yellow {
   background-color: #e0b223;
   border-color: #e0b223;
@@ -185,9 +185,19 @@ button.bg-dark-blue:hover {
   border-color: #113e8c;
 }
 
+.survey {
+  color: #fff;
+}
+
 .survey:hover {
   cursor: pointer;
-  text-decoration: none;
+    text-decoration: none !important;
+  color: #fff;
+}
+
+.survey:hover .card {
+  background-color: #3168c4;
+  transition: .5s;
 }
 
 .blue {
