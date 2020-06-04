@@ -155,6 +155,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .role {
+    margin-top: 4%;
+  }
 }
 
 
