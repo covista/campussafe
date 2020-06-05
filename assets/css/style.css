@@ -150,6 +150,18 @@ body {
   color: #999999;
 }
 
+@media only screen and (max-width: 768px) {
+  .roles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .role {
+    margin-top: 4%;
+  }
+}
+
+
 /* OLIVIA QIN */
 
 .bg-grey {
