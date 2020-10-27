@@ -158,10 +158,6 @@ body {
   color: #666666;
 }
 
-.aligncenter {
-    text-align: center;
-}
-
 .berkeley-branded {
   font-weight: 500;
   font-size: 20px;
@@ -284,6 +280,10 @@ button.bg-dark-blue:hover {
 .muted-2 {
   color: #999999;
   font-size: 15px;
+}
+
+.aligncenter {
+    text-align: center;
 }
 
 .ch {
