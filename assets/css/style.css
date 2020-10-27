@@ -417,3 +417,7 @@ button.bg-dark-blue:hover {
     column-count: 2;
   }
 }
+
+.aligncenter {
+    text-align: center;
+}
